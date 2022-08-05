@@ -1,6 +1,6 @@
 # Amazon-Indigenous-Carbon
 
-<img src="amazon-carbon2frames.gif" />
+<img src="amazon-carbon13frames.gif" />
 
 **Walker et al. 2020. The Role of Forest Conversion, Degradation, and Disturbance in the Carbon Dynamics of Amazon Indigenous Territories and Protected Areas. _Proceedings of the National Academy of Sciences_.**
 
