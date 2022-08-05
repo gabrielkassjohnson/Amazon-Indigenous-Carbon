@@ -1,6 +1,18 @@
 # Amazon-Indigenous-Carbon
 
+This is an exploratory data analysis notebook for the dataset contained in this repo, which, for the purposes of research, constitutes a fair use. However, please respect the original license at the bottom! Thanks, and thanks to Walker et al and the Woodwell Climate Research Center.
+
+<img src="original-plot.png" />
+
+Above is a recreation of the plot in the paper. It contains a few perceptual deficiencies that make it hard to decipher, and also innacesible to people with sight disabilities. Let's re-render the plot with a logarithmic norm, which conforms to the norms found in human perception. Visual stimuli are never interpreted linearly by the brain, always logarithmically. Let's also change the colormap to a color-blind accesible palette. Blues and yellows are preferable to red/green, the most common type of color-blindness. Teal and gold give the plot a more appealing tonal balance, while still composed mostly of blue and yellow.
+
+<img src="new-plot.png" />
+
+Finally, here is an animation of the successive cummulative change from year to year.
+
 <img src="amazon-carbon13frames.gif" />
+
+#  Original Readme Begins Here
 
 **Walker et al. 2020. The Role of Forest Conversion, Degradation, and Disturbance in the Carbon Dynamics of Amazon Indigenous Territories and Protected Areas. _Proceedings of the National Academy of Sciences_.**
 
