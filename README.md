@@ -4,7 +4,7 @@ This is an exploratory data analysis notebook for the dataset contained in this 
 
 <img src="original-plot.png" />
 
-Figure 1. A rough recreation of the plot in the paper. It contains a few perceptual flaws that make it hard to decipher, and also innacesible to people with sight disabilities.
+Figure 1. A rough recreation of figure 1c in [Walker 2020]. It contains a few perceptual flaws that make it hard to decipher, and also innacesible to people with sight disabilities.
 
 <img src="amazon-carbon13frames.gif" />
 
