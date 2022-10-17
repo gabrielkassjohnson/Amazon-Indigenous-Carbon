@@ -1,16 +1,24 @@
 # Amazon-Indigenous-Carbon
 
-This is an exploratory data analysis notebook for the dataset contained in this repo, which, for the purposes of research, constitutes a fair use. However, please respect the original license at the bottom! Thanks, and thanks to Walker et al and the Woodwell Climate Research Center.
+This is an exploratory data analysis notebook for the dataset contained in this repo, arising from the paper “The role of forest conversion, degradation, and disturbance in the carbon dynamics of Amazon indigenous territories and protected areas.” [Walker 2020] It seeks to explore the visualization possibilities of the geotiff dataset.
 
 <img src="original-plot.png" />
 
-Above is a recreation of the plot in the paper. It contains a few perceptual deficiencies that make it hard to decipher, and also innacesible to people with sight disabilities. Let's re-render the plot with a logarithmic norm, which conforms to the norms found in human perception. Visual stimuli are never interpreted linearly by the brain, always logarithmically. Let's also change the colormap to a color-blind accesible palette. Blues and yellows are preferable to red/green, the most common type of color-blindness. Teal and gold give the plot a more appealing tonal balance, while still composed mostly of blue and yellow.
-
-<img src="new-plot.png" />
-
-Finally, here is an animation of the successive cummulative change from year to year.
+Figure 1. A rough recreation of the plot in the paper. It contains a few perceptual flaws that make it hard to decipher, and also innacesible to people with sight disabilities.
 
 <img src="amazon-carbon13frames.gif" />
+
+Figure 2. Re-rendering the plot with a logarithmic scale allows for better visibility of the differences between the high and low end of the ranges. It is advisiable to show both figures, the linear scale to get a sense of the absolute magnitudes, and the logarithmic scale to get a sense of the relative differences between large and small values. We also change the colormap to a color-blind accesible palette. Blues and yellows are preferable to red/green [Nuñez 2018], since the red and green color receptors are the ones most commonly affected by color blindness. Teal and gold give the plot a more appealing tonal balance, while still composed mostly of blue and yellow. Finally, the plot is animated  to show successive cumulative changes in above ground carbon density for each year from 2003-2016.
+
+
+## References
+
+[Nuñez 2018] Nuñez, Jamie R., Christopher R. Anderton and Ryan S. Renslow. “Optimizing colormaps with consideration for color vision deficiency to enable accurate interpretation of scientific data.” PLoS ONE 13 (2018).
+
+[Walker 2020] Walker, Wayne S., Seth R. Gorelik, Alessandro Baccini, Jose Luis Aragon-Osejo, Carmen Josse, Chris Meyer, Marcia Nunes Macedo, Cicero Augusto, Sandra L. Rios, Tuntiak Katan, Alana Almeida de Souza, Saúl Cuéllar, Andres Llanos, Irene Zager, Gregorio Díaz Mirabal, Kylen K Solvik, Mary Farina, Paulo Moutinho and Stephan Schwartzman. “The role of forest conversion, degradation, and disturbance in the carbon dynamics of Amazon indigenous territories and protected areas.” Proceedings of the National Academy of Sciences of the United States of America 117 (2020): 3015 - 3025.
+
+## A note on the license
+This exploratory notebook, for the purposes of research, constitutes a fair use. However, please respect the original license at the bottom! Thanks to Walker et al and the Woodwell Climate Research Center.
 
 #  Original Readme Begins Here
 
